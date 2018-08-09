@@ -18,9 +18,10 @@ firstName.addEventListener('keyup', function (event) {
 });
 
 lastName.addEventListener('keyup', (e) => {
-    console.log(event.target.value);
-    lastNameView.innerHTML = event.target.value;
+console.log('​e', e.target.value);
+    
+    lastNameView.innerHTML = e.target.value;
  
-})
+});
 
 
